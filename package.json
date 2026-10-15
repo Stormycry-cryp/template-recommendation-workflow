@@ -1,0 +1,13 @@
+{
+  "name": "template-recommendation-workflow",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Template recommendation scheduling and template-based prompt rewriting through replaceable adapters.",
+  "exports": "./src/index.mjs",
+  "scripts": {
+    "test": "node --test",
+    "demo": "node examples/demo.mjs"
+  },
+  "engines": { "node": ">=20" }
+}
